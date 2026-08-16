@@ -6,17 +6,17 @@ The full thesis document (**written in Spanish**) is included in this repository
 
 
 ##  Repository Structure
-- TFG.pdf : Full Bachelor's Thesis document (in Spanish).
-- ts_electric_price.csv: Time series dataset with daily min/max electricity prices.
-- Similarities.R: Core functions for fuzzy similarity metric calculations.
-- ARIMA_and_FTS.R: Main R script: train/test split, FTS & ARIMA fitting, evaluation.
-- Split_time_series.R: R script for time series cross-validation.
+- `TFG.pdf`: Full Bachelor's Thesis document (in Spanish).
+- `ts_electric_price.csv`: Time series dataset with daily min/max electricity prices.
+- `Similarities.R`: Core functions for fuzzy similarity metric calculations.
+- `ARIMA_and_FTS.R`: Main R script: train/test split, FTS & ARIMA fitting, evaluation.
+- `Split_time_series.R`: R script for time series cross-validation.
 
 
 ## Prerequisites & Dependencies
 
 To execute the scripts in R, install the following required packages:
-install.packages(c("tidyverse", "fpp2", "tseries", "urca", "xts", "ggfortify", "Metrics")).
+`install.packages(c("tidyverse", "fpp2", "tseries", "urca", "xts", "ggfortify", "Metrics"))`.
 
 
 ## Practical Implementation & Workflow
